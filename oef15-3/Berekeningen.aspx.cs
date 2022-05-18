@@ -13,6 +13,8 @@ namespace oef15_3
         {
             if (Page.IsPostBack)
             {
+                lblSom.Text = Convert.ToString(Convert.ToInt32(TxtG1.Text) + Convert.ToInt32(TxtG2.Text));
+                lblVerschil.Text = Convert.ToString(Convert.ToInt32(TxtG1.Text) - Convert.ToInt32(TxtG2.Text));
                 lblP.Text = Convert.ToString(Convert.ToInt32(TxtG1.Text) * Convert.ToInt32(TxtG2.Text));
                 lblQ.Text = Convert.ToString(Math.Round(Convert.ToDouble(TxtG1.Text) / Convert.ToDouble(TxtG2.Text), 2, MidpointRounding.AwayFromZero));
             }

@@ -16,6 +16,10 @@
             <asp:TextBox ID="TxtG2" runat="server"></asp:TextBox>
             <br />
             <asp:Button ID="btnBereken" runat="server" Text="Bereken" OnClick="btnBereken_Click" />
+            <h4>Som:
+            <asp:Label ID="lblSom" runat="server" Text=""></asp:Label>
+            <h4>Verschil:
+            <asp:Label ID="lblVerschil" runat="server" Text=""></asp:Label>
             <h4>Product:
             <asp:Label ID="lblP" runat="server" Text=""></asp:Label>
             </h4>
